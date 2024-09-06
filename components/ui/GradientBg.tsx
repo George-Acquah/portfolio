@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
@@ -71,7 +72,7 @@ export const BackgroundGradientAnimation = ({
     }
 
     move();
-  }, [tgX, tgY]);
+  }, [curX, curY, tgX, tgY]);
 
   const handleMouseMove = (event: React.MouseEvent<HTMLDivElement>) => {
     if (interactiveRef.current) {
