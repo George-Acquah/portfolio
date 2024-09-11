@@ -75,6 +75,7 @@ export const projects = [
     title: "School Management System",
     des: "A comprehensive school management system built with C#, designed to streamline administrative tasks such as student enrollment, course management, grade management, and more.",
     img: "/pr1.png",
+    liveStatus: false,
     iconLists: ["/csharp.svg", "/pgsql.svg", "/fm.svg"],
     link: "https://github.com/George-Acquah/School_Management_System",
   },
@@ -83,6 +84,7 @@ export const projects = [
     title: "Smart car Parking - Admin",
     des: "An advanced admin dashboard for managing parking systems. This application provides real-time insights into parking availability, user management, and payment processing, making parking management efficient and seamless.",
     img: "/pr2.png",
+    liveStatus: true,
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
     link: "https://admin-scp.vercel.app/auth/login",
   },
@@ -200,13 +202,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/George-Acquah/",
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "#",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/george-acquah-993788248",
   },
 ];
